@@ -1,0 +1,30 @@
+/* icon attachment 
+Remixicon */
+/* https://remixicon.com/ */
+
+p{
+    font-size: 20px;
+    color: green;
+    font-weight: 600;     /* 100 to 900 , bold , bolder */
+    text-align: left;    /* left , right , center */
+    line-height: 2;
+    letter-spacing:5px;
+    word-spacing:20px;
+    text-transform:capitalize;    /*uppercase , capitalize , lowercase*/
+    text-indent: 100px;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    font-size: 100px;
+    color: purple;
+}
