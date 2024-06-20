@@ -1,0 +1,25 @@
+.box{
+    background-color: skyblue;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    margin: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    transition: all 0.7s;
+    animation: abc 2s infinite linear;
+}
+
+.box:hover{
+    background-color: red;
+    color: white;
+}
+
+@keyframes abc {
+    0%{
+        transform: rotate(0deg);
+    } 
+    100%{
+        transform: rotate(360deg);
+    }
+}

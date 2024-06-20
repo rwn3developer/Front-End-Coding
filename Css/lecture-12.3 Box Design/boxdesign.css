@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    min-width: 100px;
+    min-height:200px;
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}
