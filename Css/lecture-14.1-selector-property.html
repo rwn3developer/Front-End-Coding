@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Selector Property</title>
+</head>
+<style>
+    .text p::first-line{
+        color: red;
+    }
+    h1::first-letter{
+        color: blue;
+    }
+    li:first-child{
+        color: pink;
+    }
+    li:last-child{
+        color: orange;
+    }
+
+    li:nth-child(2){
+        color: green;
+    }
+    li:nth-child(3){
+        color: brown;
+    }
+    li:last-child{
+        color: cornflowerblue;
+    }
+</style>
+<body>
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis hic! Velit necessitatibus soluta similique. Inventore facilis repudiandae, voluptates aliquam ipsam nesciunt corporis minima quisquam recusandae nam! Delectus, odit dictam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis hic! Velit necessitatibus soluta similique</p>
+        <h1>Mahadev</h1>
+    </div>
+
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+        <li>product</li>
+        <li>services</li>
+    </ul>
+
+</body>
+</html>
