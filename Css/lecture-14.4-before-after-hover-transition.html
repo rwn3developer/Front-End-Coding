@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Before After</title>
+    <style>
+        .box::before{
+            content: "hello";
+        }
+
+        .box::after{
+            content: "world";
+        }
+
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+        }
+        .box1::after{
+            content: "";
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+        }
+        .box1::before{
+            content: "";
+            width: 50px;
+            height: 50px;
+            background-color: rgb(16, 219, 80);
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .box2{
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            transition: 0.5s all;
+        }
+
+        .box2:hover{
+            background-color: purple;
+        }
+
+        .box3 a{
+            background-color: black;
+            padding: 15px 30px;
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+        }
+
+        .box3 a:focus{
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div class="box"></div>
+
+    <div class="box1"></div>
+
+    <br><br>
+    <div class="box2"></div><br>
+
+    <div class="box3">
+        <a href="#">View More</a>
+    </div>
+
+</body>
+</html>
