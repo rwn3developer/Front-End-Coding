@@ -8,22 +8,146 @@
             background-color: skyblue;
             margin: 0 auto;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: flex-start
         }
         .box1{
             width: 300px;
             height: 100px;
-            background-color: red;
+            background-color: rgb(51, 111, 143);
             
         }
+
+        .flex-end{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .flex-center{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .flex-space-between{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex-space-around{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .flex-space-evenly{
+            justify-content: flex;
+            justify-content: space-evenly;
+        }
+        
+        .stretch{
+            display: flex;
+            align-items: stretch;
+        }
+
+        .align-center{
+            display: flex;
+            align-items: center;
+        }
+
+        .align-flex-start{
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .align-flex-end{
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .align-flex-baseline{
+            display: flex;
+            align-items:baseline;
+        }
+
+
+
     </style>
 </head>
 <body>
+    <p>Flex Start</p>
     <div class="mainbox">
         <div class="box1">1</div>
         <div class="box1">2</div>
         <div class="box1">3</div>
     </div>
+
+    <p>Flex End</p>
+    <div class="mainbox flex-end">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Flex center</p>
+    <div class="mainbox flex-center">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Flex space between</p>
+    <div class="mainbox flex-space-between">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Flex space around</p>
+    <div class="mainbox flex-space-around">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Flex space evenely</p>
+    <div class="mainbox flex-space-evenly">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Align items Stretch</p>
+    <div class="mainbox stretch">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Align items Center</p>
+    <div class="mainbox align-center">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Align items flext start</p>
+    <div class="mainbox align-flex-start">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Align items flext end</p>
+    <div class="mainbox align-flex-end">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
+    <p>Align items flext baseline</p>
+    <div class="mainbox align-flex-baseline">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+    </div>
+
 </body>
 </html>
