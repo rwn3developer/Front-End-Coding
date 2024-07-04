@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>media query practical</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .w-4{
+        width: 25%;
+    }
+    .box{
+        background-color: black;
+        height: 300px;
+    }
+    .w-4:nth-child(2) .box{
+        background-color: red;
+    }
+    .w-4:nth-child(3) .box{
+        background-color:green;
+    }
+    .w-4:last-child .box{
+        background-color:orange;
+    }
+
+    @media(max-width:1399px){
+        .w-xl-2{
+            width: 50%;
+        }
+    }
+
+    @media(max-width:1199px){
+        .w-lg-3{
+            width: 33.33%;
+        }
+    }
+
+    @media(max-width:991px){
+
+    }
+
+    @media(max-width:767px){
+
+    }
+
+    @media(max-width:575px){
+
+    }
+
+</style>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="w-4 w-xl-2 w-lg-3">
+                    <div class="box">1</div>
+                </div>
+                <div class="w-4 w-xl-2 w-lg-3">
+                    <div class="box">1</div>
+                </div>
+                <div class="w-4 w-xl-2 w-lg-3">
+                    <div class="box">1</div>
+                </div>
+                <div class="w-4 w-xl-2 w-lg-3">
+                    <div class="box">1</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
