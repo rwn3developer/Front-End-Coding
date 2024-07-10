@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+a{
+    display: inline-block;
+    text-decoration: none;
+}
 .container{
     max-width: 1320px;
     margin: 0 auto;
@@ -24,6 +28,7 @@
 }
 .col-4{
     width: 33.33%;
+    padding : 0px 15px;
 }
 .col-5{
     width: 41.66%;
@@ -150,3 +155,99 @@ ul{
     color: white;
     border-radius: 50px;
 }
+.deal-of-month{
+    background-color: #f5f5f5;
+    padding: 100px 0px;
+}
+
+.deal-of-month img{
+    max-width: 100%;
+}
+
+.deal-of-month-content h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.deal-of-month-content h2 span{
+    color: #F28123;;
+}
+.deal-of-month-content h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.deal-of-month-content p{
+    max-width: 500px;
+    line-height: 1.8;
+}
+.counter-column{
+    margin-top:25px;
+    margin-bottom: 35px;
+}
+.days{
+    border: 2px solid #F28123;
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+}
+.days span{
+    font-size: 30px;
+    color: #F28123;
+    font-weight: 700;
+}
+.deal-of-month-content a{
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #F28123;
+    border-radius: 50px;
+    color: white;
+}
+.deal-of-month-content a i{
+    color: white;
+    margin-right: 5px;
+    color: white;
+}
+.deal-of-month-content a:hover{
+    background-color: #051922;
+    color: #F28123;
+}
+.testimonail-section{
+    padding: 150px 0px;
+}
+.testimonail-section img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.testimonail-section h2{
+    margin-bottom: 20px;
+}
+.testimonail-section span{
+    margin-bottom: 25px;
+    opacity: 0.5;
+    font-weight: 600;
+    font-size: 16px;
+}
+.testimonail-section p{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #999999;
+    font-style: italic;
+    font-weight:500;
+    margin-top: 20px;
+}
+.testimonail-section .last-icon i{
+    font-size: 30px;
+    margin-top: 20px;
+    opacity: 0.3;
+}
+.abt-section{
+    padding: 150px 0px;
+}
+.abt-img{
+    background-image: url('../img/abt.jpg');
+    height: 100%;
+    width: 100%;
+}   

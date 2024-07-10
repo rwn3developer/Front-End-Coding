@@ -1,12 +1,21 @@
+
+/* XL */
+
 @media(max-width:1399px){
     
 }
 
+
+    /* LG */
+
 @media(max-width:1199px){
-    .w-xl-2{
+    .w-lg-2{
         width: 50%;
     }
 }
+
+
+/* MD */
 
 @media(max-width:991px){
     .w-md-2{
@@ -15,13 +24,16 @@
     }
 }
 
+/* SM */
+
 @media(max-width:767px){
     .w-sm-2{
         width: 50%;
-        margin: 0 auto;
-        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
 }
+
+/* XS */
 
 @media(max-width:575px){
     .w-xs-1{
