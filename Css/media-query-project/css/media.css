@@ -11,6 +11,7 @@
 @media(max-width:1199px){
     .w-lg-2{
         width: 50%;
+        margin-bottom: 30px;
     }
 }
 
@@ -20,7 +21,6 @@
 @media(max-width:991px){
     .w-md-2{
         width: 50%;
-        margin: 0 auto;
     }
 }
 
@@ -38,11 +38,12 @@
 @media(max-width:575px){
     .w-xs-1{
         width: 100%;
-        margin: 0 auto;
-        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
 
 }
+
+
 
 
 
