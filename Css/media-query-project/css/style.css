@@ -370,3 +370,73 @@ ul{
     color: white;
     border-radius: 50px;
 }
+.company-logo{
+    padding: 50px 0px;
+    background-color: #f5f5f5;;
+}
+
+.footer-area{
+    padding: 150px 0px;
+    background-color: #051922;
+    color: #fff;
+}
+
+.footer-area .footer-box h2{
+    position: relative;
+    padding-bottom: 20px;
+}
+.footer-area .footer-box h2:after{
+    position: absolute;
+    content: "";
+    width: 20px;
+    background-color: #F28123;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
+.footer-area .footer-box p{
+    line-height: 1.8;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.footer-box{
+    padding: 10px;
+}
+.footer-area .footer-box ul{
+    margin-top: 20px;
+}
+.footer-area .footer-box ul li{
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.footer-area .footer-box ul li a{
+    color: white;
+    transition: 0.5s;
+}
+.footer-area .footer-box ul li a:hover{
+    color: #F28123;
+}
+.footer-area .footer-box form{
+    margin-top: 20px;
+}
+.footer-area .footer-box form input{
+    padding: 15px;
+    background-color: #012738;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+}
+.footer-area .footer-box form button{
+    padding: 15px;
+    background-color: #012738;
+    border: none;
+    color: #F28123;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer-area .footer-box form button:hover{
+    background-color: #F28123;
+    color:#012738
+}

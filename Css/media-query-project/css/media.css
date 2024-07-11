@@ -21,15 +21,28 @@
 @media(max-width:991px){
     .w-md-2{
         width: 50%;
+        margin-bottom: 30px;
     }
+    .shop-banner-text{
+        text-align: center;
+     }
 }
 
 /* SM */
 
 @media(max-width:767px){
+    .w-sm-1{
+        width: 100%;
+    }
     .w-sm-2{
         width: 50%;
         margin-bottom: 30px;
+    }
+    .testimonail-section p{
+        width: 100%;
+    }
+    .shop-banner-text{
+       text-align: center;
     }
 }
 
