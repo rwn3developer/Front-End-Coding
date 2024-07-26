@@ -56,13 +56,6 @@ a{
 .col-1 , .col-2, .col-3 , .col-4 , .col-5 , .col-6 , .col-7 , .col-8 , .col-9 , .col-10 , .col-11 , .col-12{
     padding: 0px 15px;
 }
-header{
-    background-color: black;
-    padding: 15px 0px;
-}
-header .logo img{
-    max-width: 150px;
-}
 .d-flex{
     display: flex;
 }
@@ -78,14 +71,21 @@ header .logo img{
 .text-center{
     text-align: center;
 }
-ul{
+ul , ol{
     list-style: none;
+}
+header{
+    background-color: black;
+    padding: 15px 0px;
+}
+header .logo img{
+    max-width: 150px;
 }
 .menu ul li a{
     text-decoration: none;
     color: white;
     display: block;
-    padding: 15px;
+    padding:0 15px ;
     font-weight: 700;
 }
 .icon ul li a{
@@ -270,7 +270,6 @@ ul{
 }
 .abt-text p{
     font-size: 15px;
-    max-width: 400px;
     line-height: 1.6;
     margin-bottom: 10px;
 }
@@ -439,4 +438,10 @@ ul{
 .footer-area .footer-box form button:hover{
     background-color: #F28123;
     color:#012738
+}
+.toggle{
+    color: white;
+}
+.align-center{
+    align-items: center;
 }

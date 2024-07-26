@@ -1,31 +1,12 @@
 
-/* XL */
+/* XS */
 
-@media(max-width:1399px){
-    
-}
-
-
-    /* LG */
-
-@media(max-width:1199px){
-    .w-lg-2{
-        width: 50%;
+@media(max-width:575px){
+    .w-xs-1{
+        width: 100%;
         margin-bottom: 30px;
     }
-}
 
-
-/* MD */
-
-@media(max-width:991px){
-    .w-md-2{
-        width: 50%;
-        margin-bottom: 30px;
-    }
-    .shop-banner-text{
-        text-align: center;
-     }
 }
 
 /* SM */
@@ -45,16 +26,39 @@
        text-align: center;
     }
 }
+/* XL */
 
-/* XS */
+/* MD */
 
-@media(max-width:575px){
-    .w-xs-1{
-        width: 100%;
+@media(max-width:991px){
+    .w-md-2{
+        width: 50%;
         margin-bottom: 30px;
     }
-
+    .shop-banner-text{
+        text-align: center;
+     }
+    
 }
+
+
+
+    /* LG */
+
+@media(max-width:1199px){
+    .w-lg-2{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .d-lg-flex{
+        display: flex;
+     }
+}
+
+
+
+
+
 
 
 

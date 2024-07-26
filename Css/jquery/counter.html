@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Counter Plugin</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .counter {
+            font-size: 2em;
+            text-align: center;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="counter" data-count="100">0</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="counter.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.counter').counter();
+        });
+    </script>
+</body>
+
+<script>
+    (function($) {
+    $.fn.counter = function(options) {
+        var settings = $.extend({
+            duration: 4000
+        }, options);
+        
+        return this.each(function() {
+            var $this = $(this);
+            var countTo = $this.attr('data-count');
+
+            $({ countNum: $this.text() }).animate({ 
+                countNum: countTo
+            }, {
+                duration: settings.duration,
+                easing: 'linear',
+                step: function() {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                    $this.text(this.countNum);
+                }
+            });
+        });
+    };
+}(jQuery));
+</script>
+
+</html>

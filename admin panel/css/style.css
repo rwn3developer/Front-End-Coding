@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+/* .container{
+    width: 1320px;
+    margin: 0 auto;
+} */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex{
+    display: flex;
+}
+.col-1{
+    width: 8.33%;
+   
+}
+.col-2{
+    width: 16.66%;
+    
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1 , .col-2, .col-3 , .col-4 , .col-5 , .col-6 , .col-7 , .col-8 , .col-9 , .col-10 , .col-11 , .col-12{
+    padding: 0px 15px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+ul , ol{
+    list-style: none;
+}
+header{
+    background-color: #fff;
+    padding: 30px 0px;
+    margin-left: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header .header-inner .search-field input{
+    max-width: 480px;
+    height: 55px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #f5f7fd;
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+aside{
+    padding-top: 90px;
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    top:0;
+    left: 0;
+    background-color:#fff;
+    overflow-y: scroll;
+}
+aside .logo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+aside .sidebar-menu{
+    padding: 0px 30px;
+}
+aside .side_menu_title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2daab8;
+    padding: 15px 0px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sidebar-menu li a{
+    display: block;
+    padding: 10px 0px;
+}
+.sidebar-menu ul li a span{
+    margin-left: 20px;
+    color: #676b84;
+}
+main{
+    margin-top: 80px;
+}
+.single-element{
+    padding: 100px;
+    background-color: #2daab8;
+    margin-bottom: 100px;
+}
+
+footer{
+    height: 80px;
+    background-color: darkcyan;
+    /* width: 80%; */
+    margin-left: auto;
+    
+}
