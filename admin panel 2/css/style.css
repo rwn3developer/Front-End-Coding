@@ -63,3 +63,9 @@ main {
     padding: 20px;
     width: calc(100% - 300px);
 }
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
