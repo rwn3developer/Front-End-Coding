@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,24 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/media.css" type="text/css">
 </head>
+
 <body>
 
     <!-- Header -->
     <header>
-        
         <div class="container">
             <div class="row">
-                <div class="col-10">                                                                
+                <div class="col-10">
                     <div class="header-inner d-flex justify-between">
-                       
-                            <form>
-                                <div class="search-field">
-                                    <input type="text" placeholder="Search here">
-                                </div>
-                            </form>
-                        
+                        <button id="showmenu">Menu</button>
+                        <form>
+                            <div class="search-field">
+                                <input type="text" placeholder="Search here">
+                            </div>
+                        </form>
+
                         <div class="header-left">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -90,31 +91,31 @@
 
     <main>
         <section>
-               
-                    <div class="row">
-                        <div class="col-3 col-xs-1 col-sm-1 col-md-2 col-lg-4 col-xl-4">
-                            <div class="single-element">
 
-                            </div>
-                        </div>
-                        <div class="col-3 col-xs-1 col-sm-1 col-md-2 col-lg-4 col-xl-4">
-                            <div class="single-element">
+            <div class="row">
+                <div class="col-3 col-xs-1 col-sm-1 col-md-2 col-lg-4 col-xl-4">
+                    <div class="single-element">
 
-                            </div>
-                        </div>
-                        <div class="col-3 col-xs-1 col-sm-1 col-md-2 col-lg-4 col-xl-4">
-                            <div class="single-element">
-
-                            </div>
-                        </div>
-                        <div class="col-3 col-xs-1 col-sm-1 col-md-2 col-lg-4 col-xl-4">
-                            <div class="single-element">
-
-                            </div>
-                        </div>
                     </div>
-               
-           
+                </div>
+                <div class="col-3 col-xs-1 col-sm-1 col-md-2 col-lg-4 col-xl-4">
+                    <div class="single-element">
+
+                    </div>
+                </div>
+                <div class="col-3 col-xs-1 col-sm-1 col-md-2 col-lg-4 col-xl-4">
+                    <div class="single-element">
+
+                    </div>
+                </div>
+                <div class="col-3 col-xs-1 col-sm-1 col-md-2 col-lg-4 col-xl-4">
+                    <div class="single-element">
+
+                    </div>
+                </div>
+            </div>
+
+
         </section>
 
 
@@ -124,8 +125,15 @@
 
     </main>
 
-    
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#showmenu").click(function () {
+                let a = document.getElementById('showmenu');
+            });
+        });
+    </script>
 </body>
+
 </html>
