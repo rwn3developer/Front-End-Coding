@@ -6,3 +6,21 @@
         width: 100%;
     }
 }
+
+@media(max-width:768px){
+    .col-sm-12{
+        width: 100%;
+    }
+}
+
+@media(max-width:991px){
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+@media(max-width:1200px){
+    .col-lg-12{
+        width: 100%;
+    }
+}
