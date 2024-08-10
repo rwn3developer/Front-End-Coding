@@ -7,5 +7,92 @@ a{
     text-decoration: none;
 }
 body{
-    font-family: 'jost';
+    font-family: 'jost' !important;
+}
+.theme-btn{
+    background-color: #5758e0;
+}
+
+/* CAROUSEL */
+
+.carousel-item{
+    background: url('../img/slider.jpg') rgba(0,0,0,0.5);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+}
+.carousel-content{
+    width: 45%;
+}
+.carousel-content h1{
+    color: #575ddf;
+}
+.carousel-content .theme-btn{
+    background-color:#5758e0;
+}
+#navbarSupportedContent ul li a{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* SERVICES */
+
+.services{
+    padding: 100px 0px;
+}
+.services .services-items p{
+    color: white !important;
+    font-size: 21px !important;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.services .col-lg-4:first-child .services-items::before{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-image: linear-gradient(45deg, #575ddf, #55a0d6);
+    top : -20px;
+    left: -20px;
+    z-index: -1;
+}
+.services .col-lg-4:last-child .services-items::before{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-image: linear-gradient(45deg, #575ddf, #55a0d6);
+    bottom : -20px;
+    right: -20px;
+    z-index: -1;
+}
+
+/* ABOUT */
+
+.about{
+    padding: 100px 0px;
+}
+.about .about-content span{
+    width: 60px;
+    height: 5px;
+    background-image: linear-gradient(45deg, #575ddf, #55a0d6);
+}
+.features{
+    padding: 100px 0px;
+}
+
+/* TALK */
+.talk{
+    padding: 100px 0px;
+}
+.talk .talk-content span{
+    width: 60px;
+    height: 5px;
+    background-image: linear-gradient(45deg, #575ddf, #55a0d6);
+}
+::placeholder{
+    color: white !important;
+    font-size: 18px;
+    opacity: 0.5 !important;
 }

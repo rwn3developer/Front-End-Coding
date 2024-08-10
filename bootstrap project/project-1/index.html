@@ -5,54 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap project 1</title>
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="fonts/jost/stylesheet.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- not run -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheets" type="text/css"/> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
     <!-- HEADER -->
-    <header class="bg-dark py-2">
+    <header class="bg-dark py-1">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand text-white fs-4 fw-bold" href="#">SolutionM4</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler border" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fa-solid fa-bars text-white"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link text-white fw-semibold" aria-current="page" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link text-white fw-semibold" href="#">Link</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-semibold" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-semibold" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="#">
+                                    <i class="fa-brands fa-twitter"></i>
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
                             </li>
                         </ul>
-                       
+
                     </div>
                 </div>
             </nav>
@@ -60,10 +55,222 @@
         </div>
     </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-     <!-- not run -->
-    <!-- <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script> -->
+    <main>
+        <!-- carousel -->
+        <section id="carouselExample" class="carousel slide">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="carousel-content text-center">
+                                <h1 class="display-1 fw-bold">MARKETING SOLUTION AGENCY</h1>
+                                <p class="fs-4 text-white opacity-50">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <a class="py-2 px-3 text-decoration-none text-white d-inline-block theme-btn">Get
+                                    Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="carousel-content text-center">
+                                <h1 class="display-1 fw-bold">MARKETING SOLUTION AGENCY</h1>
+                                <p class="fs-4 text-white opacity-50">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <a class="py-2 px-3 text-decoration-none text-white d-inline-block theme-btn">Get
+                                    Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- services -->
+
+        <section class="services bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="services-items position-relative z-1">
+                            <div class="text-center py-5 px-4 bg-dark mb-4">
+                                <h3 class="text-white my-3">Digital Marketing</h3>
+                                <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="services-items">
+                            <div class="text-center py-5 px-4 bg-dark mb-4">
+                                <h3 class="text-white my-3">Digital Marketing</h3>
+                                <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="services-items">
+                            <div class="text-center py-5 px-4 bg-dark mb-4">
+                                <h3 class="text-white my-3">Digital Marketing</h3>
+                                <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="services-items">
+                            <div class="text-center py-5 px-4 bg-dark mb-4">
+                                <h3 class="text-white my-3">Digital Marketing</h3>
+                                <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="services-items">
+                            <div class="text-center py-5 px-4 bg-dark mb-4">
+                                <h3 class="text-white my-3">Digital Marketing</h3>
+                                <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="services-items position-relative z-1">
+                            <div class="text-center py-5 px-4 bg-dark mb-4">
+                                <h3 class="text-white my-3">Digital Marketing</h3>
+                                <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about bg-dark">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="about-image">
+                            <img class="img-fluid" src="img/about.jpg" alt="about" title="about">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="about-content ps-5">
+                            <span class="d-inline-block"></span>
+                            <h2 class="text-white display-5 my-3 fw">About Us</h2>
+                            <p class="text-white fs-5 fw-light text-opacity-50">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Mauris finibus leo et diam fermentum ullamcorper. Nulla venenatis nibh
+                                sollicitudin tincidunt gravida. Nam convallis justo et ligula luctus suscipit. Etiam eu
+                                nisi turpis. Donec sollicitudin accumsan quam, rhoncus sagittis metus semper quis.
+                                Praesent convallis mauris sed ipsum lobortis facilisis. Nulla cursus sem non nunc
+                                sagittis, a volutpat mauris lobortis. Nulla ut feugiat tellus. Nam dictum nisi nec
+                                scelerisque auctor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features bg-black">
+            <div class="container">
+                <div class="features-title text-center mb-5">
+                    <h2 class="text-white display-5 fw-normal">Our Features</h2>
+                    <p class="text-white text-opacity-50 fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item bg-black border-0">
+                      <h2>
+                        <button class="accordion-button shadow-none bg-dark text-white text-opacity-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                          Digital Marketing
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="mb-0 text-white text-opacity-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-black border-0">
+                      <h2>
+                        <button class="accordion-button shadow-none bg-dark text-white text-opacity-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                          Trade Show
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="mb-0 text-white text-opacity-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-black border-0">
+                      <h2>
+                        <button class="accordion-button shadow-none bg-dark text-white text-opacity-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                          Branding
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="mb-0 text-white text-opacity-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-- TALK -->
+
+        <section class="talk bg-dark">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
+                        <div class="talk-content pe-5">
+                            <span class="d-inline-block"></span>
+                            <h2 class="text-white my-3 display-5 fw-normal">Let's Talk?</h2>
+                            <p class="text-white text-opacity-50 fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, eiusmod tempor incididunt ut labore.</p>
+                            <form>
+                                <input type="text" placeholder="Name" class="form-control bg-transparent border-secondary py-3 mb-3">
+                                <input type="text" placeholder="Email" class="form-control bg-transparent border-secondary py-3 mb-3">
+                                <input type="text" placeholder="Phone" class="form-control bg-transparent border-secondary py-3 mb-3">
+                                <button class="theme-btn py-3 px-3 border-0 text-white">
+                                    CONTACT US
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
+                        <div class="talk-img">
+                            <img src="img/talk.jpg" class="img-fluid" alt="talk" title="talk">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GOOGLE MAP -->
+
+        <section class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41709470793!2d72.73989535424477!3d21.159340298557975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1693026562069!5m2!1sen!2sin" width="100%" height="450" frameborder="0"></iframe>
+        </section>
+
+    </main>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- not run -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
